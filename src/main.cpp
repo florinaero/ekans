@@ -9,7 +9,7 @@ using namespace std;
 int main(){
 	try{
 		// Create snake object with wait time in mills and initial direction
-		Snake snake(70, RIGHT, 1);
+		Snake snake(100, RIGHT, 1);
 	}
 	catch(WrongSizeException& wre){
 		return 1;
